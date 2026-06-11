@@ -1,4 +1,3 @@
-````md
 # Abhi Urs Portfolio Website
 
 A modern cybersecurity-themed personal portfolio website showcasing my projects, certifications, technical skills, experience, and resume.
@@ -7,7 +6,7 @@ A modern cybersecurity-themed personal portfolio website showcasing my projects,
 
 ## 🌐 Live Website
 
-[Visit Portfolio](https://portfolio-website-xi-olive-17.vercel.app/)
+Visit Portfolio: https://portfolio-website-xi-olive-17.vercel.app/
 
 ---
 
@@ -66,7 +65,26 @@ An AI-powered cybersecurity project focused on detecting suspicious network acti
 
 ---
 
-## 📸 Screenshots ### Hero Section ![Hero Section](images/hero.png) --- ### Projects Section ![Projects Section](images/projects.png) --- ### Certifications Section ![Certifications Section](images/certifications.png)
+```md id="addimages"
+## 📸 Screenshots
+
+### Hero Section
+
+![Hero Section](images/hero.png)
+
+---
+
+### Projects Section
+
+![Projects Section](images/projects.png)
+
+---
+
+### Certifications Section
+
+![Certifications Section](images/certifications.png)
+```
+
 ---
 
 
@@ -81,6 +99,3 @@ An AI-powered cybersecurity project focused on detecting suspicious network acti
 ## 👨‍💻 Author
 
 Abhi Urs
-
-```
-```
