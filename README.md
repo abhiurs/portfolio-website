@@ -65,7 +65,6 @@ An AI-powered cybersecurity project focused on detecting suspicious network acti
 
 ---
 
-```md id="addimages"
 ## 📸 Screenshots
 
 ### Hero Section
@@ -83,7 +82,6 @@ An AI-powered cybersecurity project focused on detecting suspicious network acti
 ### Certifications Section
 
 ![Certifications Section](images/certifications.png)
-```
 
 ---
 
