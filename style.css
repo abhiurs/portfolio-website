@@ -1088,3 +1088,89 @@ img:hover{
     transform:scale(1.02);
 }
 
+/* ================================
+   RESULTS TABLE
+================================ */
+
+.results-table {
+    width: 100%;
+    max-width: 850px;
+    margin: 30px 0 50px;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: rgba(10, 15, 20, 0.75);
+    border: 1px solid rgba(91, 210, 224, 0.25);
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 0 25px rgba(0, 173, 181, 0.08);
+}
+
+/* Table Header */
+
+.results-table thead {
+    background: rgba(91, 210, 224, 0.08);
+}
+
+.results-table th {
+    padding: 18px 24px;
+    text-align: left;
+    color: #5bd2e0;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgba(91, 210, 224, 0.25);
+}
+
+/* Table Cells */
+
+.results-table td {
+    padding: 17px 24px;
+    color: #e5e7eb;
+    font-size: 15px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Remove bottom border from last row */
+
+.results-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Row Hover */
+
+.results-table tbody tr {
+    transition: background 0.25s ease, transform 0.25s ease;
+}
+
+.results-table tbody tr:hover {
+    background: rgba(91, 210, 224, 0.06);
+}
+
+/* Accuracy column */
+
+.results-table td:last-child {
+    color: #5bd2e0;
+    font-weight: 600;
+}
+
+.results-note {
+    max-width: 850px;
+    margin-top: -25px;
+    margin-bottom: 50px;
+    font-size: 13px;
+    color: #8b949e;
+    line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+
+    .results-table {
+        font-size: 14px;
+    }
+
+    .results-table th,
+    .results-table td {
+        padding: 13px 12px;
+        font-size: 13px;
+    }
+
+}
