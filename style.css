@@ -1174,3 +1174,71 @@ img:hover{
     }
 
 }
+
+
+/* Projects Toggle Button */
+
+.projects-toggle-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+
+/* Hide additional projects initially */
+.project-card.extra-project {
+    display: none;
+}
+
+/* Show additional projects when expanded */
+#projects.projects-expanded .project-card.extra-project {
+    display: flex;
+}
+
+
+
+#toggle-projects-btn {
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+
+    padding: 16px 30px;
+    min-width: 230px;
+
+    background: transparent;
+    color: #ffffff;
+
+    border: 1px solid #00adb5;
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        background 0.3s ease,
+        box-shadow 0.3s ease,
+        transform 0.3s ease,
+        border-color 0.3s ease;
+}
+
+#toggle-projects-btn:hover {
+    background: rgba(0, 173, 181, 0.12);
+    border-color: #00dce5;
+    box-shadow: 0 0 22px rgba(0, 173, 181, 0.2);
+    transform: translateY(-3px);
+}
+
+#toggle-projects-btn:focus-visible {
+    outline: 2px solid #00dce5;
+    outline-offset: 4px;
+}
+
+#toggle-projects-btn:active {
+    transform: translateY(0);
+}
+
+

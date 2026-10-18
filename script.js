@@ -80,3 +80,20 @@ const observer = new IntersectionObserver((entries) => {
 
 
 hiddenElements.forEach((el) => observer.observe(el));
+
+
+/* Projects: View All / View Less */
+const projectsSection = document.getElementById("projects");
+const toggleProjectsBtn = document.getElementById("toggle-projects-btn");
+
+if (projectsSection && toggleProjectsBtn) {
+    toggleProjectsBtn.addEventListener("click", () => {
+        const isExpanded = projectsSection.classList.toggle("projects-expanded");
+
+        toggleProjectsBtn.textContent = isExpanded
+            ? "View Less"
+            : "View All Projects";
+
+        toggleProjectsBtn.setAttribute("aria-expanded", String(isExpanded));
+    });
+}
